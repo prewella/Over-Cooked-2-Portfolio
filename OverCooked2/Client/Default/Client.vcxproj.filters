@@ -1,0 +1,1011 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00.MainApp">
+      <UniqueIdentifier>{e8c1446f-d68b-429c-803b-6a9457cc52fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Defines">
+      <UniqueIdentifier>{ce854a45-6a35-475d-8655-cb379d1be032}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels">
+      <UniqueIdentifier>{cc644f60-4ecb-49a8-8586-e9c4ccbdb419}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Default">
+      <UniqueIdentifier>{00a0e8fc-8926-4877-aa3c-b6cc3ff3f072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\Loading">
+      <UniqueIdentifier>{783aa7d0-e4a9-47f3-b857-f5b824dad2b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\Logo">
+      <UniqueIdentifier>{7fa67ac9-2f2d-435f-bf35-849f5cbedd3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\GamePlay">
+      <UniqueIdentifier>{8b1d5579-1fb9-493c-96b9-62d618153e5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\Loading\Loader">
+      <UniqueIdentifier>{17ab5a45-d880-40f6-b518-e747936c79d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects">
+      <UniqueIdentifier>{c4cae272-dd94-43ce-85e6-ecc0b24de4d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\BackGround">
+      <UniqueIdentifier>{ef3d146c-47a4-4cea-8ab8-0d3efb6a9884}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.ShaderFiles">
+      <UniqueIdentifier>{6c97f181-1c24-4522-bedb-7c3ed51e738e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Terrain">
+      <UniqueIdentifier>{2d974beb-fe5f-4430-bca0-fe15325e50c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Camera">
+      <UniqueIdentifier>{75e45318-a739-4941-9854-12d78de671fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Editor">
+      <UniqueIdentifier>{02f8db75-36b1-43a9-9c95-42595a4b6951}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\Editor">
+      <UniqueIdentifier>{65681351-a16d-4158-b818-6ac3c02a706b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\ModelObject">
+      <UniqueIdentifier>{7e687938-5afe-4ef2-87e5-6639d8e33534}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Editor\BluePrint">
+      <UniqueIdentifier>{51f593ee-9457-421f-8ce7-20188ffb1fbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Camera\Free">
+      <UniqueIdentifier>{6e93a88b-4242-4286-8d77-72b5c02b458a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\ModelObject\Design">
+      <UniqueIdentifier>{02063e40-2acc-43fa-8e80-686cb511bb6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\ModelObject\Design\Prop">
+      <UniqueIdentifier>{1961f85c-988b-480a-832e-9c883e1c31e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\ModelObject\Design\Tile">
+      <UniqueIdentifier>{ee2948d4-f242-46c2-92c5-1d7f3da24c76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\ModelObject\Character">
+      <UniqueIdentifier>{5854ff57-20aa-4dc7-98d4-6da45ff6712d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\ModelObject\Character\Chef">
+      <UniqueIdentifier>{03767626-b7ba-4c2e-8bda-51bf6f6189a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\ModelObject\Character\Chef\Parts">
+      <UniqueIdentifier>{e378c2f1-73f6-46b3-a4a0-32aebd9ce7ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\ModelObject\Character\Chef\Parts\Part_Body">
+      <UniqueIdentifier>{2f611b3f-d943-4357-af7c-55afff5621dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\ModelObject\Character\Chef\Parts\Part_UI_Tile">
+      <UniqueIdentifier>{cc9902db-4a47-4ff0-875f-f7ecd436472f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\ModelObject\InteractObj">
+      <UniqueIdentifier>{51c013e3-7a46-461e-a4b4-90cf5f91df92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\ModelObject\InteractObj\Ingredient_Crate">
+      <UniqueIdentifier>{dac14b21-721d-4fc0-b98f-781b04440433}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\ModelObject\InteractObj\Table_Chop">
+      <UniqueIdentifier>{68e63c20-6a13-49c4-bf3e-bbd14f358743}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\ModelObject\InteractObj\Table">
+      <UniqueIdentifier>{c941ead8-3bc8-4feb-b2b8-8bb63a05875b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\ModelObject\Belonging">
+      <UniqueIdentifier>{3a945e0a-6cdc-4185-a09a-5db01c01129f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\ModelObject\Belonging\Ingredient">
+      <UniqueIdentifier>{5fbaf4cf-8c5d-4c58-8d02-b60d8924b245}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\ModelObject\Character\Chef\Parts\Part_Hand">
+      <UniqueIdentifier>{ffae4f47-99f0-45e9-9405-e9b1b14e60a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\ModelObject\Character\Chef\Parts\Part_Cooker">
+      <UniqueIdentifier>{bec9efe4-a99c-4081-9adb-2cdac17cc83b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\ModelObject\InteractObj\Plate_Return">
+      <UniqueIdentifier>{44d4b02d-d42f-4083-9385-213e924058ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\ModelObject\InteractObj\Pass">
+      <UniqueIdentifier>{ede72bd3-28c9-48f9-a77e-b145be8c837c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\ModelObject\InteractObj\Stove">
+      <UniqueIdentifier>{3810c653-a80b-45b2-818a-dcc4a9fa60a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\ModelObject\Belonging\Plate">
+      <UniqueIdentifier>{c053b2d7-4df3-4197-9f17-45db62ab49f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\ModelObject\InteractObj\Table_Chop\Part_Knife">
+      <UniqueIdentifier>{38e51eec-a9dd-4ca2-af02-440d81c535b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\ModelObject\InteractObj\Waste_Bin">
+      <UniqueIdentifier>{8c13f131-3ec0-4c9c-b286-8a649db859fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\ModelObject\Belonging\Cooker">
+      <UniqueIdentifier>{0b0da336-10c9-4219-b011-0f33a3180241}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\ModelObject\InteractObj\Sink">
+      <UniqueIdentifier>{53ef62aa-f735-46db-a3ff-6fe0d6504e2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Empty_Collider">
+      <UniqueIdentifier>{82c7e861-230f-4a62-aff7-640fbbe9cb6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Editor\Spone">
+      <UniqueIdentifier>{12bdab5c-9453-4bc6-9f35-cc38ec7ae354}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\ModelObject\Belonging\Plate\Plated_Ingredient">
+      <UniqueIdentifier>{d22ea442-22ca-4c24-983c-10d3bed667fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\ModelObject\InteractObj\Sink\Plate_Wash">
+      <UniqueIdentifier>{6dab3410-7f32-4edc-ad0c-5edf67c70626}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\ModelObject\Belonging\Dirty_Plate">
+      <UniqueIdentifier>{963acaf5-a2d5-4405-a120-e20113c1a93d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\ModelObject\Belonging\Dirty_Plate\Part_DirtyPlate">
+      <UniqueIdentifier>{d2deb65c-5e85-45c9-b2da-2dc90cbcb363}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Recipe">
+      <UniqueIdentifier>{0e61b6ec-0adf-459e-baf5-6eb366f6d61a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Recipe\Manager">
+      <UniqueIdentifier>{9d52560e-8d4e-45ee-aff7-a699d5becdc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI">
+      <UniqueIdentifier>{1ddde49f-08f2-4aa4-9395-45ad187519f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Level_GamePlay">
+      <UniqueIdentifier>{dad86930-47ff-4254-a4a5-09b07c1cc605}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Level_GamePlay\Score">
+      <UniqueIdentifier>{c5dea31e-525f-4889-9586-77ed86cff81a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Level_GamePlay\Timer">
+      <UniqueIdentifier>{8207d611-e3b2-4cc4-a803-bffa7d69ea9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Level_GamePlay\Order">
+      <UniqueIdentifier>{436069a9-3181-49de-a0d1-fa807e880902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Level_GamePlay\Order\Manager">
+      <UniqueIdentifier>{d53952a5-03d9-44cf-969c-128cc2ffb235}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Level_GamePlay\Order\Timer">
+      <UniqueIdentifier>{6beb7775-45e2-4a04-b5f9-05fcb5f37798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Level_GamePlay\Order\Recipe">
+      <UniqueIdentifier>{9fa11e18-98fd-4e66-ba2d-8db3b01abc36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Level_GamePlay\Order\Recipe\Ingredient">
+      <UniqueIdentifier>{5d8d0215-8029-45df-b3b6-8ceabc46a917}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Level_GamePlay\Order\Recipe\Method">
+      <UniqueIdentifier>{722ad8f1-217b-40b2-a69d-69609a687301}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Level_GamePlay\Order\Dish">
+      <UniqueIdentifier>{9c7c9718-910f-437e-88ac-f19d2ada2ea7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Level_GamePlay\Score\Coin">
+      <UniqueIdentifier>{a5b7c6cf-78c7-485f-8550-ca110dc8de83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Level_GamePlay\Score\Tip">
+      <UniqueIdentifier>{b81324dc-ec57-478d-ac11-15ed7cbe8e55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Level_GamePlay\Score\Flame">
+      <UniqueIdentifier>{30a5adb9-8573-43c6-af4a-5911128d8a0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Level_GamePlay\Timer\Hourglass">
+      <UniqueIdentifier>{fd703b23-652c-4126-b4e0-f3ae541b63df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Level_GamePlay\Timer\Banner">
+      <UniqueIdentifier>{ec6bf236-602e-4edb-98fb-9dd9fc06152f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\ModelObject\Gimmic">
+      <UniqueIdentifier>{d0e0ae62-7efc-430e-81a6-992ad612eed9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\ModelObject\Gimmic\Traffic_Light">
+      <UniqueIdentifier>{5cb149b6-2347-4112-9c57-cd7a44b4a0a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\ModelObject\Gimmic\Traffic_Light\Automoblie">
+      <UniqueIdentifier>{9e2f41d8-d997-4504-ba09-475fc746ea71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\Result">
+      <UniqueIdentifier>{ecb937c1-6ced-49d0-ac05-58fc32eafbf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\Main_Menu">
+      <UniqueIdentifier>{335916d3-8ffd-42ab-b4c5-48b0a45c41b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\Stage_Load">
+      <UniqueIdentifier>{20501f3e-039d-4c00-a57e-fd5d218a6832}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Level_StageLoad">
+      <UniqueIdentifier>{ea1fb12a-32ee-413c-a572-493ea5785248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Level_StageLoad\Level_Preview">
+      <UniqueIdentifier>{cc5fd6fe-f907-45d9-82c8-94ac5563466c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Level_StageLoad\Loading_Bar">
+      <UniqueIdentifier>{8f0298eb-b548-40ad-9a03-75a9a8fe99f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Level_StageLoad\Loading_Bar\Gauge">
+      <UniqueIdentifier>{e2c9a762-a07a-4dc2-9d65-c0dd4509f803}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Level_StageLoad\Level_Preview\Board">
+      <UniqueIdentifier>{f0549446-dc98-4aa7-8b2a-7ef93bd3d5c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Level_Common">
+      <UniqueIdentifier>{e57a188b-9636-43bf-9ff7-97da55e5502d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Level_Common\BackGround">
+      <UniqueIdentifier>{2f4f5987-5f72-4949-8a66-6bdcfdc84a5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Level_Common\BackGround\Pattern">
+      <UniqueIdentifier>{96aac469-618c-4c7d-bc69-24c4adc5e800}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Level_Common\Strip">
+      <UniqueIdentifier>{a87d0645-ce74-4fda-abbe-4ef4231e7ddc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Level_Common\Title">
+      <UniqueIdentifier>{182ad15e-cfd8-4a01-8e3d-db255a481b58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Level_GamePlay\Notice">
+      <UniqueIdentifier>{fe7de302-d562-48a1-a781-e945908d258d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Level_GamePlay\Notice\Font">
+      <UniqueIdentifier>{16931f8c-fe4a-496e-9e70-01b36ae9b35b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Level_Result">
+      <UniqueIdentifier>{0ab4bf65-2f65-4a8e-b986-93379c0c868b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Level_Result\Star">
+      <UniqueIdentifier>{96cdc932-f493-42ec-8d0b-eaa7092f7d70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Level_Result\Chef">
+      <UniqueIdentifier>{fdd2e38d-918d-491e-9f60-4238677d101b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Level_Common\Star">
+      <UniqueIdentifier>{2368e465-bdc2-4eb2-a210-201feeac405c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\ModelObject\NPC">
+      <UniqueIdentifier>{52ef390d-3522-4d33-bb7b-6fe4f42c157a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\ModelObject\NPC\OnionKing">
+      <UniqueIdentifier>{a24be811-46a6-451a-bc13-36982225d1f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Camera\UI">
+      <UniqueIdentifier>{7fac33bd-f40e-4a56-b1a7-94ae7f1e4710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Instance">
+      <UniqueIdentifier>{0fdca498-1aa9-4ec6-8b0c-acccd91e3ceb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Level_GamePlay\InterObj">
+      <UniqueIdentifier>{c05a2fe1-e349-498f-bbfd-50ac0a6c37ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Level_GamePlay\InterObj\ProgressBar">
+      <UniqueIdentifier>{289f8c03-c46a-470e-b47f-9972e7345d28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Level_GamePlay\InterObj\Ingredient_Icon">
+      <UniqueIdentifier>{164f98b5-68e9-4084-883a-81594ece6c3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\ModelObject\InteractObj\Stove\Flame">
+      <UniqueIdentifier>{5b83cf64-9bd1-4575-b2fb-28b732e69283}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\ModelObject\Belonging\Cooker\Cooking">
+      <UniqueIdentifier>{9267c9b4-cb9c-4ab7-a3b0-94b653aa6549}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\ModelObject\Belonging\Cooker\Cooking\Pot">
+      <UniqueIdentifier>{a3584dbb-22ad-4f48-b72d-869a8069d4e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\ModelObject\Belonging\Cooker\Cooking\FryingPan">
+      <UniqueIdentifier>{52de6d54-4b93-42bf-a444-2c4e2d79dd5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\ModelObject\Belonging\Cooker\Cooking\Pot\Soup">
+      <UniqueIdentifier>{e82033b1-58ec-49a7-82b2-40433b401f51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\ModelObject\InteractObj\Conveyor">
+      <UniqueIdentifier>{e806aff8-8512-4910-927c-bf278f8b53f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\ModelObject\InteractObj\Dispenser">
+      <UniqueIdentifier>{904760f3-ef16-4ccf-af79-96a7340055c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GamePlayData">
+      <UniqueIdentifier>{9249338d-73e0-4ab2-b562-b453482a2d6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Level_MainMenu">
+      <UniqueIdentifier>{49af1857-33e3-4d35-bdf3-b6a9d646d4ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Level_MainMenu\Stage_Select">
+      <UniqueIdentifier>{64066014-529e-45c4-b13e-809c5e7a47c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Level_MainMenu\Stage_Select\Stage">
+      <UniqueIdentifier>{db8d8cd2-fb75-4254-a585-a7226f8260ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Level_MainMenu\Stage_Select\Stage\BG">
+      <UniqueIdentifier>{590a6a60-3e3e-4f98-a6d2-fb8989c10905}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Level_MainMenu\Stage_Select\Stage\Ttile">
+      <UniqueIdentifier>{26ed0587-7a7e-47e9-9fc6-e474832b3d60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Level_Common\Transition">
+      <UniqueIdentifier>{599568e0-5c64-49fb-a546-e6ce66face6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Level_MainMenu\Stage_Select\Stage\Select_Stage">
+      <UniqueIdentifier>{15482905-377a-46e5-a6f7-60d683ca552a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Level_MainMenu\Stage_Select\Stage\Select_Stage\Preview">
+      <UniqueIdentifier>{ac24c5a2-fdd2-4d50-8c73-374c5a26e05f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Level_Common\Transition\Curtain">
+      <UniqueIdentifier>{92050b2b-3285-4e1a-91ec-e246ed1fa74a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Level_MainMenu\Chef_Change">
+      <UniqueIdentifier>{db5d7462-2f81-48c1-aa37-eab6bf925e1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Level_MainMenu\Logo">
+      <UniqueIdentifier>{defe97b2-858b-4750-8cc1-8b883d0e1abe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\UI\Level_MainMenu\Exit">
+      <UniqueIdentifier>{68477c90-28bd-48d0-b9b7-e77cb56e5fde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Instance\Rat_Hit">
+      <UniqueIdentifier>{9d39c2ad-e367-4e4e-85a3-b1ee5a5d69cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Instance\Vapor">
+      <UniqueIdentifier>{4d484c14-95de-45a7-8779-103533915564}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Instance\Puff">
+      <UniqueIdentifier>{5a0853d2-850b-45c9-abba-9c77a9aff833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Instance\Blood">
+      <UniqueIdentifier>{f3968a3e-599c-4b4a-b294-1c3443e40c9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Instance\Dash_Puff">
+      <UniqueIdentifier>{8df40f99-d65f-4730-9b31-87f26d07841c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Instance\Hit_Star">
+      <UniqueIdentifier>{4e8ce955-e304-4d41-b541-f1a4b59e540e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\MainApp.h">
+      <Filter>00.MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_GamePlay.h">
+      <Filter>01.Levels\GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Loading.h">
+      <Filter>01.Levels\Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Logo.h">
+      <Filter>01.Levels\Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\BackGround.h">
+      <Filter>02.GameObjects\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Terrain.h">
+      <Filter>02.GameObjects\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Defines.h">
+      <Filter>99.Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Editor.h">
+      <Filter>96.Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level_Editor.h">
+      <Filter>01.Levels\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Tile.h">
+      <Filter>02.GameObjects\ModelObject\Design\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\BluePrint.h">
+      <Filter>96.Editor\BluePrint</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Prop.h">
+      <Filter>02.GameObjects\ModelObject\Design\Prop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Character.h">
+      <Filter>02.GameObjects\ModelObject\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Camera_Free.h">
+      <Filter>02.GameObjects\Camera\Free</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Part_Body.h">
+      <Filter>02.GameObjects\ModelObject\Character\Chef\Parts\Part_Body</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Part_Control_Mark.h">
+      <Filter>02.GameObjects\ModelObject\Character\Chef\Parts\Part_UI_Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Loader.h">
+      <Filter>01.Levels\Loading\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Chef.h">
+      <Filter>02.GameObjects\ModelObject\Character\Chef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Ingredient.h">
+      <Filter>02.GameObjects\ModelObject\Belonging\Ingredient</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Ingredient_Crate.h">
+      <Filter>02.GameObjects\ModelObject\InteractObj\Ingredient_Crate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Belonging.h">
+      <Filter>02.GameObjects\ModelObject\Belonging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Table.h">
+      <Filter>02.GameObjects\ModelObject\InteractObj\Table</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Table_Chop.h">
+      <Filter>02.GameObjects\ModelObject\InteractObj\Table_Chop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\InteractObj.h">
+      <Filter>02.GameObjects\ModelObject\InteractObj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Part_Hand.h">
+      <Filter>02.GameObjects\ModelObject\Character\Chef\Parts\Part_Hand</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Part_Cooker.h">
+      <Filter>02.GameObjects\ModelObject\Character\Chef\Parts\Part_Cooker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Empty_Collider.h">
+      <Filter>02.GameObjects\Empty_Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Waste_Bin.h">
+      <Filter>02.GameObjects\ModelObject\InteractObj\Waste_Bin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Plate_Return.h">
+      <Filter>02.GameObjects\ModelObject\InteractObj\Plate_Return</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Stove.h">
+      <Filter>02.GameObjects\ModelObject\InteractObj\Stove</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Plate.h">
+      <Filter>02.GameObjects\ModelObject\Belonging\Plate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Cooker.h">
+      <Filter>02.GameObjects\ModelObject\Belonging\Cooker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Part_ChopKnife.h">
+      <Filter>02.GameObjects\ModelObject\InteractObj\Table_Chop\Part_Knife</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Sink.h">
+      <Filter>02.GameObjects\ModelObject\InteractObj\Sink</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Pass.h">
+      <Filter>02.GameObjects\ModelObject\InteractObj\Pass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Plated_Ingredient.h">
+      <Filter>02.GameObjects\ModelObject\Belonging\Plate\Plated_Ingredient</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Spone.h">
+      <Filter>96.Editor\Spone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Part_Plate_Wash.h">
+      <Filter>02.GameObjects\ModelObject\InteractObj\Sink\Plate_Wash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Dirty_Plate.h">
+      <Filter>02.GameObjects\ModelObject\Belonging\Dirty_Plate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Part_DirtyPlate.h">
+      <Filter>02.GameObjects\ModelObject\Belonging\Dirty_Plate\Part_DirtyPlate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Recipe.h">
+      <Filter>03.Recipe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Recipe_Manager.h">
+      <Filter>03.Recipe\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Order_Manager.h">
+      <Filter>02.GameObjects\UI\Level_GamePlay\Order\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Order.h">
+      <Filter>02.GameObjects\UI\Level_GamePlay\Order</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Recipe.h">
+      <Filter>02.GameObjects\UI\Level_GamePlay\Order\Recipe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Recipe_Ingredient.h">
+      <Filter>02.GameObjects\UI\Level_GamePlay\Order\Recipe\Ingredient</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Recipe_Method.h">
+      <Filter>02.GameObjects\UI\Level_GamePlay\Order\Recipe\Method</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Coin.h">
+      <Filter>02.GameObjects\UI\Level_GamePlay\Score\Coin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Dish.h">
+      <Filter>02.GameObjects\UI\Level_GamePlay\Order\Dish</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Score.h">
+      <Filter>02.GameObjects\UI\Level_GamePlay\Score</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Tip.h">
+      <Filter>02.GameObjects\UI\Level_GamePlay\Score\Tip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Flame.h">
+      <Filter>02.GameObjects\UI\Level_GamePlay\Score\Flame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Timer.h">
+      <Filter>02.GameObjects\UI\Level_GamePlay\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Hourglass.h">
+      <Filter>02.GameObjects\UI\Level_GamePlay\Timer\Hourglass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Timer_Banner.h">
+      <Filter>02.GameObjects\UI\Level_GamePlay\Timer\Banner</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Traffic_Light.h">
+      <Filter>02.GameObjects\ModelObject\Gimmic\Traffic_Light</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Automobile.h">
+      <Filter>02.GameObjects\ModelObject\Gimmic\Traffic_Light\Automoblie</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level_Result.h">
+      <Filter>01.Levels\Result</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level_MainMenu.h">
+      <Filter>01.Levels\Main_Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level_StageLoad.h">
+      <Filter>01.Levels\Stage_Load</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Stage_LoadingBar.h">
+      <Filter>02.GameObjects\UI\Level_StageLoad\Loading_Bar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Stage_Preview.h">
+      <Filter>02.GameObjects\UI\Level_StageLoad\Level_Preview</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Common_BG.h">
+      <Filter>02.GameObjects\UI\Level_Common\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Common_Title.h">
+      <Filter>02.GameObjects\UI\Level_Common\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Common_BG_Pattern.h">
+      <Filter>02.GameObjects\UI\Level_Common\BackGround\Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Common_Strip.h">
+      <Filter>02.GameObjects\UI\Level_Common\Strip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Stage_LoadingBar_Gauge.h">
+      <Filter>02.GameObjects\UI\Level_StageLoad\Loading_Bar\Gauge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Stage_Level_Board.h">
+      <Filter>02.GameObjects\UI\Level_StageLoad\Level_Preview\Board</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Notice.h">
+      <Filter>02.GameObjects\UI\Level_GamePlay\Notice</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Notice_Font.h">
+      <Filter>02.GameObjects\UI\Level_GamePlay\Notice\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Bill.h">
+      <Filter>02.GameObjects\UI\Level_Result</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Result_Empty_Star.h">
+      <Filter>02.GameObjects\UI\Level_Result\Star</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Common_Star.h">
+      <Filter>02.GameObjects\UI\Level_Common\Star</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\OnionKing.h">
+      <Filter>02.GameObjects\ModelObject\NPC\OnionKing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Camera_UI.h">
+      <Filter>02.GameObjects\Camera\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\My_Instance.h">
+      <Filter>02.GameObjects\Instance</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Stove_Flame.h">
+      <Filter>02.GameObjects\ModelObject\InteractObj\Stove\Flame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Soup.h">
+      <Filter>02.GameObjects\ModelObject\Belonging\Cooker\Cooking\Pot\Soup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Conveyor.h">
+      <Filter>02.GameObjects\ModelObject\InteractObj\Conveyor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Dispenser.h">
+      <Filter>02.GameObjects\ModelObject\InteractObj\Dispenser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Data_Storage.h">
+      <Filter>GamePlayData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Stage_Select_Header.h">
+      <Filter>02.GameObjects\UI\Level_MainMenu\Stage_Select</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Stage_Select_BG.h">
+      <Filter>02.GameObjects\UI\Level_MainMenu\Stage_Select\Stage\BG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Stage_Select_Preview.h">
+      <Filter>02.GameObjects\UI\Level_MainMenu\Stage_Select\Stage\Select_Stage\Preview</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Stage_Select_Title.h">
+      <Filter>02.GameObjects\UI\Level_MainMenu\Stage_Select\Stage\Ttile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Transition.h">
+      <Filter>02.GameObjects\UI\Level_Common\Transition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Select_Stage.h">
+      <Filter>02.GameObjects\UI\Level_MainMenu\Stage_Select\Stage\Select_Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Curtain.h">
+      <Filter>02.GameObjects\UI\Level_Common\Transition\Curtain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Chef_Change_Header.h">
+      <Filter>02.GameObjects\UI\Level_MainMenu\Chef_Change</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Stage_Select_Manager.h">
+      <Filter>02.GameObjects\UI\Level_MainMenu\Stage_Select\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Main_Logo.h">
+      <Filter>02.GameObjects\UI\Level_MainMenu\Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UI_Exit.h">
+      <Filter>02.GameObjects\UI\Level_MainMenu\Exit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Instance_Puff.h">
+      <Filter>02.GameObjects\Instance\Puff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Instance_RatHit.h">
+      <Filter>02.GameObjects\Instance\Rat_Hit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Instance_Vapor.h">
+      <Filter>02.GameObjects\Instance\Vapor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Instance_Blood.h">
+      <Filter>02.GameObjects\Instance\Blood</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Instance_Dash_Puff.h">
+      <Filter>02.GameObjects\Instance\Dash_Puff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Instance_Hit_Star.h">
+      <Filter>02.GameObjects\Instance\Hit_Star</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>98.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>98.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\MainApp.cpp">
+      <Filter>00.MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Loading.cpp">
+      <Filter>01.Levels\Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Logo.cpp">
+      <Filter>01.Levels\Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Loader.cpp">
+      <Filter>01.Levels\Loading\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\BackGround.cpp">
+      <Filter>02.GameObjects\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Terrain.cpp">
+      <Filter>02.GameObjects\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Editor.cpp">
+      <Filter>01.Levels\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Tile.cpp">
+      <Filter>02.GameObjects\ModelObject\Design\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\BluePrint.cpp">
+      <Filter>96.Editor\BluePrint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Prop.cpp">
+      <Filter>02.GameObjects\ModelObject\Design\Prop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Character.cpp">
+      <Filter>02.GameObjects\ModelObject\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Camera_Free.cpp">
+      <Filter>02.GameObjects\Camera\Free</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Part_Body.cpp">
+      <Filter>02.GameObjects\ModelObject\Character\Chef\Parts\Part_Body</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Part_Control_Mark.cpp">
+      <Filter>02.GameObjects\ModelObject\Character\Chef\Parts\Part_UI_Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Editor.cpp">
+      <Filter>96.Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_GamePlay.cpp">
+      <Filter>01.Levels\GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public\Chef.cpp">
+      <Filter>02.GameObjects\ModelObject\Character\Chef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Belonging.cpp">
+      <Filter>02.GameObjects\ModelObject\Belonging</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Ingredient.cpp">
+      <Filter>02.GameObjects\ModelObject\Belonging\Ingredient</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Ingredient_Crate.cpp">
+      <Filter>02.GameObjects\ModelObject\InteractObj\Ingredient_Crate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Table.cpp">
+      <Filter>02.GameObjects\ModelObject\InteractObj\Table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Table_Chop.cpp">
+      <Filter>02.GameObjects\ModelObject\InteractObj\Table_Chop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\InteractObj.cpp">
+      <Filter>02.GameObjects\ModelObject\InteractObj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Part_Cooker.cpp">
+      <Filter>02.GameObjects\ModelObject\Character\Chef\Parts\Part_Cooker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Part_Hand.cpp">
+      <Filter>02.GameObjects\ModelObject\Character\Chef\Parts\Part_Hand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Empty_Collider.cpp">
+      <Filter>02.GameObjects\Empty_Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Waste_Bin.cpp">
+      <Filter>02.GameObjects\ModelObject\InteractObj\Waste_Bin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Plate_Return.cpp">
+      <Filter>02.GameObjects\ModelObject\InteractObj\Plate_Return</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Stove.cpp">
+      <Filter>02.GameObjects\ModelObject\InteractObj\Stove</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Plate.cpp">
+      <Filter>02.GameObjects\ModelObject\Belonging\Plate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Cooker.cpp">
+      <Filter>02.GameObjects\ModelObject\Belonging\Cooker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Part_ChopKnife.cpp">
+      <Filter>02.GameObjects\ModelObject\InteractObj\Table_Chop\Part_Knife</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Sink.cpp">
+      <Filter>02.GameObjects\ModelObject\InteractObj\Sink</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Pass.cpp">
+      <Filter>02.GameObjects\ModelObject\InteractObj\Pass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Plated_Ingredient.cpp">
+      <Filter>02.GameObjects\ModelObject\Belonging\Plate\Plated_Ingredient</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Spone.cpp">
+      <Filter>96.Editor\Spone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Part_Plate_Wash.cpp">
+      <Filter>02.GameObjects\ModelObject\InteractObj\Sink\Plate_Wash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Dirty_Plate.cpp">
+      <Filter>02.GameObjects\ModelObject\Belonging\Dirty_Plate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Part_DirtyPlate.cpp">
+      <Filter>02.GameObjects\ModelObject\Belonging\Dirty_Plate\Part_DirtyPlate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Recipe.cpp">
+      <Filter>03.Recipe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Recipe_Manager.cpp">
+      <Filter>03.Recipe\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Order_Manager.cpp">
+      <Filter>02.GameObjects\UI\Level_GamePlay\Order\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Order.cpp">
+      <Filter>02.GameObjects\UI\Level_GamePlay\Order</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Recipe.cpp">
+      <Filter>02.GameObjects\UI\Level_GamePlay\Order\Recipe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Recipe_Ingredient.cpp">
+      <Filter>02.GameObjects\UI\Level_GamePlay\Order\Recipe\Ingredient</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Recipe_Method.cpp">
+      <Filter>02.GameObjects\UI\Level_GamePlay\Order\Recipe\Method</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Coin.cpp">
+      <Filter>02.GameObjects\UI\Level_GamePlay\Score\Coin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Dish.cpp">
+      <Filter>02.GameObjects\UI\Level_GamePlay\Order\Dish</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Score.cpp">
+      <Filter>02.GameObjects\UI\Level_GamePlay\Score</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Tip.cpp">
+      <Filter>02.GameObjects\UI\Level_GamePlay\Score\Tip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Flame.cpp">
+      <Filter>02.GameObjects\UI\Level_GamePlay\Score\Flame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Timer.cpp">
+      <Filter>02.GameObjects\UI\Level_GamePlay\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Hourglass.cpp">
+      <Filter>02.GameObjects\UI\Level_GamePlay\Timer\Hourglass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Timer_Banner.cpp">
+      <Filter>02.GameObjects\UI\Level_GamePlay\Timer\Banner</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Traffic_Light.cpp">
+      <Filter>02.GameObjects\ModelObject\Gimmic\Traffic_Light</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Automobile.cpp">
+      <Filter>02.GameObjects\ModelObject\Gimmic\Traffic_Light\Automoblie</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Level_Result.cpp">
+      <Filter>01.Levels\Result</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Level_MainMenu.cpp">
+      <Filter>01.Levels\Main_Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Level_StageLoad.cpp">
+      <Filter>01.Levels\Stage_Load</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Stage_LoadingBar.cpp">
+      <Filter>02.GameObjects\UI\Level_StageLoad\Loading_Bar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Stage_Preview.cpp">
+      <Filter>02.GameObjects\UI\Level_StageLoad\Level_Preview</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Common_BG.cpp">
+      <Filter>02.GameObjects\UI\Level_Common\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Common_Title.cpp">
+      <Filter>02.GameObjects\UI\Level_Common\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Common_BG_Pattern.cpp">
+      <Filter>02.GameObjects\UI\Level_Common\BackGround\Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Common_Strip.cpp">
+      <Filter>02.GameObjects\UI\Level_Common\Strip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Stage_LoadingBar_Gauge.cpp">
+      <Filter>02.GameObjects\UI\Level_StageLoad\Loading_Bar\Gauge</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Stage_Level_Board.cpp">
+      <Filter>02.GameObjects\UI\Level_StageLoad\Level_Preview\Board</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Notice.cpp">
+      <Filter>02.GameObjects\UI\Level_GamePlay\Notice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Notice_Font.cpp">
+      <Filter>02.GameObjects\UI\Level_GamePlay\Notice\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Bill.cpp">
+      <Filter>02.GameObjects\UI\Level_Result</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Result_Empty_Star.cpp">
+      <Filter>02.GameObjects\UI\Level_Result\Star</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Common_Star.cpp">
+      <Filter>02.GameObjects\UI\Level_Common\Star</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\OnionKing.cpp">
+      <Filter>02.GameObjects\ModelObject\NPC\OnionKing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Camera_UI.cpp">
+      <Filter>02.GameObjects\Camera\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\My_Instance.cpp">
+      <Filter>02.GameObjects\Instance</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Stove_Flame.cpp">
+      <Filter>02.GameObjects\ModelObject\InteractObj\Stove\Flame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Soup.cpp">
+      <Filter>02.GameObjects\ModelObject\Belonging\Cooker\Cooking\Pot\Soup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Conveyor.cpp">
+      <Filter>02.GameObjects\ModelObject\InteractObj\Conveyor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Dispenser.cpp">
+      <Filter>02.GameObjects\ModelObject\InteractObj\Dispenser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Data_Storage.cpp">
+      <Filter>GamePlayData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Stage_Select_Header.cpp">
+      <Filter>02.GameObjects\UI\Level_MainMenu\Stage_Select</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Stage_Select_BG.cpp">
+      <Filter>02.GameObjects\UI\Level_MainMenu\Stage_Select\Stage\BG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Stage_Select_Preview.cpp">
+      <Filter>02.GameObjects\UI\Level_MainMenu\Stage_Select\Stage\Select_Stage\Preview</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Stage_Select_Title.cpp">
+      <Filter>02.GameObjects\UI\Level_MainMenu\Stage_Select\Stage\Ttile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Transition.cpp">
+      <Filter>02.GameObjects\UI\Level_Common\Transition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Select_Stage.cpp">
+      <Filter>02.GameObjects\UI\Level_MainMenu\Stage_Select\Stage\Select_Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Curtain.cpp">
+      <Filter>02.GameObjects\UI\Level_Common\Transition\Curtain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Chef_Change_Header.cpp">
+      <Filter>02.GameObjects\UI\Level_MainMenu\Chef_Change</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Stage_Select_Manager.cpp">
+      <Filter>02.GameObjects\UI\Level_MainMenu\Stage_Select\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Main_Logo.cpp">
+      <Filter>02.GameObjects\UI\Level_MainMenu\Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UI_Exit.cpp">
+      <Filter>02.GameObjects\UI\Level_MainMenu\Exit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Instance_Puff.cpp">
+      <Filter>02.GameObjects\Instance\Puff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Instance_RatHit.cpp">
+      <Filter>02.GameObjects\Instance\Rat_Hit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Instance_Vapor.cpp">
+      <Filter>02.GameObjects\Instance\Vapor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Instance_Blood.cpp">
+      <Filter>02.GameObjects\Instance\Blood</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Instance_Dash_Puff.cpp">
+      <Filter>02.GameObjects\Instance\Dash_Puff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Instance_Hit_Star.cpp">
+      <Filter>02.GameObjects\Instance\Hit_Star</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>98.Default</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>98.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>98.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxPosTex.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxNorTex.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxModel.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxAnimModel.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxInstance_Point.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxInstance_Rect.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

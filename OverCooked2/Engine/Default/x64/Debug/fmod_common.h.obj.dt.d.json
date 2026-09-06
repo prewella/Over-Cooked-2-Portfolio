@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\personal_folder\\portfolio\\overcooked2\\overcooked2\\engine\\public\\fmod\\fmod_common.h",
+        "ProvidedModule": "",
+        "Includes": [
+            "d:\\personal_folder\\portfolio\\overcooked2\\overcooked2\\engine\\public\\fmod\\fmod_codec.h",
+            "d:\\personal_folder\\portfolio\\overcooked2\\overcooked2\\engine\\public\\fmod\\fmod_dsp.h",
+            "d:\\personal_folder\\portfolio\\overcooked2\\overcooked2\\engine\\public\\fmod\\fmod_dsp_effects.h",
+            "d:\\personal_folder\\portfolio\\overcooked2\\overcooked2\\engine\\public\\fmod\\fmod_output.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

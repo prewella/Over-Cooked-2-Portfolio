@@ -1,0 +1,93 @@
+﻿FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see D:\Personal_Folder\Portfolio\OverCooked2\OverCooked2\Engine\Bin\Shader_Cell.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see D:\Personal_Folder\Portfolio\OverCooked2\OverCooked2\Engine\Bin\Shader_Deferred.cso
+  imgui.cpp
+  ImGuizmo.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_dx11.cpp
+  imgui_impl_win32.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  Animation.cpp
+  Base.cpp
+  Bone.cpp
+  Bounding.cpp
+  Bounding_AABB.cpp
+  Bounding_OBB.cpp
+  Bounding_Sphere.cpp
+  Camera.cpp
+  Channel.cpp
+  Collider.cpp
+  Collision_Manager.cpp
+  Component.cpp
+  컴파일하고 있습니다...
+  Component_Manager.cpp
+  CustomFont.cpp
+  DebugDraw.cpp
+  FontManager.cpp
+  GameInstance.cpp
+  GameObject.cpp
+  Graphic_Device.cpp
+  IMGUI_Manager.cpp
+  Input_Device.cpp
+  Layer.cpp
+  Level.cpp
+  Level_Manager.cpp
+  Light.cpp
+  Light_Manager.cpp
+  Mesh.cpp
+  Model.cpp
+  ModelObject.cpp
+  Object_Manager.cpp
+  PartObject.cpp
+  Picking.cpp
+  컴파일하고 있습니다...
+  PipeLine.cpp
+  Renderer.cpp
+  RenderTarget.cpp
+  Shader.cpp
+  Sound_Manager.cpp
+  Target_Manager.cpp
+  Texture.cpp
+  Timer.cpp
+  Timer_Manager.cpp
+  Tool.cpp
+  Transform.cpp
+  UI.cpp
+  VIBuffer.cpp
+  VIBuffer_Instance.cpp
+  VIBuffer_Instance_Point.cpp
+  VIBuffer_Instance_Rect.cpp
+  VIBuffer_Point.cpp
+  VIBuffer_Rect.cpp
+  VIBuffer_Terrain.cpp
+  Engine_Struct.cpp
+     ../Bin/Engine.lib 라이브러리 및 ../Bin/Engine.exp 개체를 생성하고 있습니다.
+  코드를 생성하고 있습니다.
+  Previous IPDB not found, fall back to full compilation.
+  All 5802 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+Effects11.lib(EffectAPI.obj) : warning LNK4099: 'Effects11.pdb' PDB를 'Effects11.lib(EffectAPI.obj)' 또는 'D:\Personal_Folder\Portfolio\OverCooked2\OverCooked2\Engine\Bin\Effects11.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Effects11.lib(EffectNonRuntime.obj) : warning LNK4099: 'Effects11.pdb' PDB를 'Effects11.lib(EffectNonRuntime.obj)' 또는 'D:\Personal_Folder\Portfolio\OverCooked2\OverCooked2\Engine\Bin\Effects11.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Effects11.lib(EffectLoad.obj) : warning LNK4099: 'Effects11.pdb' PDB를 'Effects11.lib(EffectLoad.obj)' 또는 'D:\Personal_Folder\Portfolio\OverCooked2\OverCooked2\Engine\Bin\Effects11.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Effects11.lib(d3dxGlobal.obj) : warning LNK4099: 'Effects11.pdb' PDB를 'Effects11.lib(d3dxGlobal.obj)' 또는 'D:\Personal_Folder\Portfolio\OverCooked2\OverCooked2\Engine\Bin\Effects11.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Effects11.lib(EffectReflection.obj) : warning LNK4099: 'Effects11.pdb' PDB를 'Effects11.lib(EffectReflection.obj)' 또는 'D:\Personal_Folder\Portfolio\OverCooked2\OverCooked2\Engine\Bin\Effects11.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Effects11.lib(EffectRuntime.obj) : warning LNK4099: 'Effects11.pdb' PDB를 'Effects11.lib(EffectRuntime.obj)' 또는 'D:\Personal_Folder\Portfolio\OverCooked2\OverCooked2\Engine\Bin\Effects11.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK.lib(SpriteBatch.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK.lib(SpriteBatch.obj)' 또는 'D:\Personal_Folder\Portfolio\OverCooked2\OverCooked2\Engine\Bin\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK.lib(SpriteFont.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK.lib(SpriteFont.obj)' 또는 'D:\Personal_Folder\Portfolio\OverCooked2\OverCooked2\Engine\Bin\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK.lib(PrimitiveBatch.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK.lib(PrimitiveBatch.obj)' 또는 'D:\Personal_Folder\Portfolio\OverCooked2\OverCooked2\Engine\Bin\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK.lib(ScreenGrab.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK.lib(ScreenGrab.obj)' 또는 'D:\Personal_Folder\Portfolio\OverCooked2\OverCooked2\Engine\Bin\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK.lib(WICTextureLoader.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK.lib(WICTextureLoader.obj)' 또는 'D:\Personal_Folder\Portfolio\OverCooked2\OverCooked2\Engine\Bin\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK.lib(DDSTextureLoader.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK.lib(DDSTextureLoader.obj)' 또는 'D:\Personal_Folder\Portfolio\OverCooked2\OverCooked2\Engine\Bin\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK.lib(BufferHelpers.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK.lib(BufferHelpers.obj)' 또는 'D:\Personal_Folder\Portfolio\OverCooked2\OverCooked2\Engine\Bin\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK.lib(CommonStates.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK.lib(CommonStates.obj)' 또는 'D:\Personal_Folder\Portfolio\OverCooked2\OverCooked2\Engine\Bin\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK.lib(VertexTypes.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK.lib(VertexTypes.obj)' 또는 'D:\Personal_Folder\Portfolio\OverCooked2\OverCooked2\Engine\Bin\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK.lib(pch.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK.lib(pch.obj)' 또는 'D:\Personal_Folder\Portfolio\OverCooked2\OverCooked2\Engine\Bin\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK.lib(BinaryReader.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK.lib(BinaryReader.obj)' 또는 'D:\Personal_Folder\Portfolio\OverCooked2\OverCooked2\Engine\Bin\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+  Engine.vcxproj -> D:\Personal_Folder\Portfolio\OverCooked2\OverCooked2\Engine\Bin\Engine.dll
+  'pwsh.exe'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
+  배치 파일이 아닙니다.

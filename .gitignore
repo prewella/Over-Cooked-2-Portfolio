@@ -1,0 +1,9 @@
+# Visual Studio 임시 및 캐시 파일
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.ipch
+*.db
+*.opendb

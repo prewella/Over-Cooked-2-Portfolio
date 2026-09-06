@@ -1,0 +1,15 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\dinput.obj",
+            "outputs": [
+                "x64\\Debug\\dinput.h.obj.dt.module.json",
+                "x64\\Debug\\dinput.h.obj.dt.d.json",
+                "x64\\Debug\\Client.pch"
+            ],
+            "requires": []
+        }
+    ]
+}

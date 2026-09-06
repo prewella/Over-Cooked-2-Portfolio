@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>D:\Personal_Folder\Portfolio\OverCooked2\OverCooked2\Client\Bin\Client.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>D:\Personal_Folder\Portfolio\OverCooked2\OverCooked2\Client\Bin\Shader_VtxAnimModel.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\Personal_Folder\Portfolio\OverCooked2\OverCooked2\Client\Bin\Shader_VtxInstance_Point.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\Personal_Folder\Portfolio\OverCooked2\OverCooked2\Client\Bin\Shader_VtxInstance_Rect.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\Personal_Folder\Portfolio\OverCooked2\OverCooked2\Client\Bin\Shader_VtxModel.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\Personal_Folder\Portfolio\OverCooked2\OverCooked2\Client\Bin\Shader_VtxNorTex.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\Personal_Folder\Portfolio\OverCooked2\OverCooked2\Client\Bin\Shader_VtxPosTex.cso</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>D:\Personal_Folder\Portfolio\OverCooked2\OverCooked2\Engine\Bin\Engine.dll</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>D:\Personal_Folder\Portfolio\OverCooked2\OverCooked2\Engine\Bin\Shader_Cell.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\Personal_Folder\Portfolio\OverCooked2\OverCooked2\Engine\Bin\Shader_Deferred.cso</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>
